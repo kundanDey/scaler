@@ -1,5 +1,10 @@
 package heaps;
 
+//Given an array A of N numbers, you have to perform B operations. In each operation,
+// you have to pick any one of the N elements and add the original value(value stored at
+// the index before we did any operations) to its current value. You can choose any of the N elements in each operation.
+//        Perform B operations in such a way that the largest element of the modified array(after B operations) is minimized.
+//        Find the minimum possible largest element after B operations.
 public class MinLargestNumber {
     public int solve(ArrayList<Integer> A, int B) {
 
